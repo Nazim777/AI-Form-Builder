@@ -1,44 +1,49 @@
-## Getting Started
+# AI Form Builder
 
-### .evn example
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
-CLERK_SECRET_KEY
-NEXT_PUBLIC_CLERK_SIGN_IN_URL
-NEXT_PUBLIC_CLERK_SIGN_UP_URL
-NEXT_PUBLIC_DATABASE_URL_CONFIG
-NEXT_PUBLIC_GEMINI_API_KEY
-NEXT_PUBLIC_BASE_URL
+AI Form Builder is a powerful and user-friendly application that allows you to create customized forms effortlessly. Powered by artificial intelligence, this Next.js application leverages the Gemini AI API to generate form fields based on your prompts. With features like secure authentication, responsive design, and persistent data storage, AI Form Builder streamlines the form creation process while providing a seamless user experience.
 
+## Features
 
-First, run the development server:
+- **AI-Powered Form Creation**: Users can create forms by simply providing prompts, and the AI generates the necessary form fields based on the prompts.
+- **Authentication**: Next-auth is integrated for secure authentication, allowing users to sign up, sign in, and manage their accounts.
+- **Responsive Design:** Shadcn UI ensures that the application is responsive and looks great across various devices and screen sizes.
+- **Admin Dashboard**: Admin users have access to a dashboard where they can view all responses submitted to their forms.
+- **Persistent Data Storage**: PostgreSQL is used as the database to store form configurations, user information, and form responses securely.
+- **Theme Customization**: The app offers six different themes for users to choose from, allowing them to customize the appearance of their app interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: A React framework for building server-side rendered (SSR) and statically generated web applications.
+- **Next-auth**: A complete open-source authentication solution for Next.js applications.
+- **Shadcn UI**: A UI framework for building beautiful, responsive web interfaces.
+- **Gemini AI API**: An API for integrating artificial intelligence capabilities into applications.
+- **Drizzle ORM**: ORM used for object-relational mapping, simplifying database interactions and management.
+- **PostgreSQL**: A powerful, open-source relational database system.
+- **DaisyUI:** A lightweight utility-first CSS component library for Tailwind CSS.
+  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Get Started
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/Nazim777/AI-Form-Builder.git
+   ```
 
-## Learn More
+2. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd your_repo
+   npm intall
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set Up Environment Variables:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=
+    NEXT_PUBLIC_DATABASE_URL_CONFIG=
+    NEXT_PUBLIC_GEMINI_API_KEY=
+    NEXT_PUBLIC_BASE_URL=
+    ```
